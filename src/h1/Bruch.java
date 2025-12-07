@@ -21,9 +21,9 @@ public class Bruch {
 	}
 
 	public void shorten() {
-		int ggt = ggT(zaehler, nenner);
-		zaehler /= ggt;
-		nenner /= ggt;
+		int g = ggT(zaehler, nenner);
+		zaehler /= g;
+		nenner /= g;
 		System.out.println(this);
 
 	}
